@@ -66,7 +66,7 @@ E-postalardaki ekler kötü amaçlı yazılım taşımak için sıkça kullanıl
 Dikkat edilmesi gereken dosya türleri:
 - **Tehlikeli uzantılar:** `.exe`, `.bat`, `.js`, `.ps1`, `.vbs`
 - **Makro içeren Office dosyaları:** `.docm`, `.xlsm`, `.pptm` Uzantının sonunda `m` ifadesi olması içerisine makro kodunun eklendiğini belirtir!
-- **Çift uzantı:** `invoice.pdf.exe`
+- **Çift uzantı:** `secret.pdf.exe`
 - **Parola korumalı veya Arşiv dosyaları:** Genellikle antivirüsten kaçmak için kullanılır.
 - **Analiz yöntemleri:** Şüpheli dosya asla doğrudan açılmamalı, hash değerlerinin çıkarılıp sandbox ortamında analiz edilmesi gerekilir.
 
@@ -77,7 +77,7 @@ Dikkat edilmesi gereken dosya türleri:
 Analiz sonucunda elde edilebilecek IoC türleri:
 
 - **IP Adresleri:** Kaynak veya kötü amaçlı sunucu.
-- **Alan adları / URL’ler:** E-postada geçen veya yönlendiren bağlantılar.
+- **Alan adları / URL'ler:** E-postada geçen veya yönlendiren bağlantılar.
 - **Dosya hashleri:** MD5 / SHA1 / SHA256
 - **E-posta adresleri:** `From`, `Reply-To`, `Return-Path`
 
