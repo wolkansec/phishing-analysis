@@ -54,8 +54,7 @@ Dikkat edilmesi gerekenler:
 - **Alt alan adlarıyla kandırma:** `paypal.security-update.com`
 - **Kısaltılmış linkler:** Bitly, TinyURL gibi servisler gerçek URL’yi gizleyebilir.
 - **Direkt IP adresleri:** Gerçek servisler genelde IP ile link vermez.
-- **Defanging (zararsız hale getirme):** Şüpheli linkleri paylaşırken `http` → `hxxp`, `.` → `[.]` ile değiştir.  
-  Örnek: `hxxp://malicious-site[.]com/`
+- **Defanging (zararsız hale getirme):** Şüpheli linkleri paylaşırken `http` → `hxxp`, `.` → `[.]` ile değiştirilmelidir. Örnek: `hxxp://malicious-site[.]com/`
 
 ---
 
