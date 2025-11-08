@@ -32,25 +32,25 @@ Ayrıca, `Received` satırlarında geçen kaynak IP adresi tespit edilip reputat
 
 ---
 
-### 2. 💬 E-posta İçeriği (Body)
+### 2. E-posta İçeriği (Body)
 
 E-postanın görünür kısmıdır. Aşağıdaki belirtiler genellikle oltalama belirtisidir:
 
-- **Acil / Tehditkar İfadeler:** “Hesabınız kilitlenecek”, “Acil işlem gerekli”.
+- **Acil / Tehditkar İfadeler:** "Hesabınız kilitlenecek", "Acil işlem gerekli".
 - **Yazım veya dilbilgisi hataları.**
-- **Genel hitaplar:** “Değerli müşterimiz” gibi.
+- **Genel hitaplar:** "Değerli müşterimiz" gibi.
 - **Olağandışı talepler:** Kimlik bilgisi, ödeme, dosya isteme.
 - **Farklı tarz / biçim:** Gerçek kurumsal dilden farklı e-postalar.
 - **Şüpheli bağlantılar (URLs):** Sonraki adımda analiz edilir.
 
 ---
 
-### 3. 🔗 Bağlantılar (URLs)
+### 3. Bağlantılar (URLs)
 
 Bağlantılar oltalama e-postalarının en kritik unsurlarındandır. Her zaman gerçek yönlendirme adresi kontrol edilmelidir.
 
 Dikkat edilmesi gerekenler:
-- **Aldatıcı alan adları:** `paypaI.com` (büyük “I”) gibi benzer yazımlar.
+- **Aldatıcı alan adları:** `paypaI.com` (büyük "I") gibi benzer yazımlar.
 - **Alt alan adlarıyla kandırma:** `paypal.security-update.com`
 - **Kısaltılmış linkler:** Bitly, TinyURL gibi servisler gerçek URL’yi gizleyebilir.
 - **Direkt IP adresleri:** Gerçek servisler genelde IP ile link vermez.
@@ -59,7 +59,7 @@ Dikkat edilmesi gerekenler:
 
 ---
 
-### 4. 📎 Ekler (Attachments)
+### 4. Ekler (Attachments)
 
 E-postalardaki ekler kötü amaçlı yazılım taşımak için sıkça kullanılır.
 
@@ -72,7 +72,7 @@ Dikkat edilmesi gereken dosya türleri:
 
 ---
 
-## 💡 IoC (İhlal Göstergeleri)
+## IoC (İhlal Göstergeleri)
 
 Analiz sonucunda elde edilebilecek IoC türleri:
 
@@ -83,11 +83,11 @@ Analiz sonucunda elde edilebilecek IoC türleri:
 
 ---
 
-## 🧰 Phishing Analizi İçin Gerekli Araçlar
+## Phishing Analizi İçin Gerekli Araçlar
 
 Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde analiz edilmesini sağlar.
 
-### 🌐 İtibar Servisleri
+### Reputation Servisleri
 - **[VirusTotal](https://www.virustotal.com/):** URL, IP, domain ve dosya hash analizi.
 - **[URLhaus](https://urlhaus.abuse.ch/):** Zararlı bağlantı veri tabanı.
 - **[AbuseIPDB](https://www.abuseipdb.com/):** IP adreslerinin kötüye kullanım kayıtları. IP Reputation için kullanılabilir.
@@ -95,7 +95,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 ---
 
-### 🔬 Sandbox Ortamları (Dinamik Analiz)
+### Sandbox Ortamları (Dinamik Analiz)
 - **[Any.Run](https://any.run/):** Gerçek zamanlı etkileşimli analiz.
 - **[Hybrid Analysis](https://www.hybrid-analysis.com/):** Statik + dinamik analiz, PCAP ve ekran görüntüsü sağlar.
 - **[Triage](https://tria.ge/):** MITRE ATT&CK eşleşmeleriyle raporlama sağlar.
@@ -103,13 +103,13 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 ---
 
-### ✉️ Header Analizi Araçları
+### Header Analizi Araçları
 - **[MxToolbox Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)**
 - **[Google Admin Toolbox – Messageheader](https://toolbox.googleapps.com/apps/messageheader/)**
 
 ---
 
-### 🔗 URL Analiz Araçları
+### URL Analiz Araçları
 - **[URLScan.io](https://urlscan.io/):** Bağlantıyı tıklamadan önizleme ve analiz.
 - **URL Expander’lar:** Kısaltılmış bağlantıların gerçek adresini gösterir.
 - **Sandbox Tarayıcılar:** Browserling veya VM kullanarak güvenli şekilde bağlantı açma.
