@@ -1,4 +1,4 @@
-# Phishing Analizi (Oltalama Analizi)
+# Phishing Analizi
 
 Phishing (Oltalama), saldırganların ağlara ilk erişimi sağlamak, kimlik bilgilerini çalmak veya kötü amaçlı yazılım yaymak için kullandığı en yaygın sosyal mühendislik tekniklerinden biridir.  
 Bir siber güvenlik analisti olarak, şüpheli e-postaları, bağlantıları (URL) ve ekleri analiz etme yeteneği, temel becerilerden biridir.
@@ -116,7 +116,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 ---
 
-# Phishing Analizi Adımları (Workflow)
+# Phishing Analiz Adımları (Workflow)
 
 ---
 
@@ -219,7 +219,5 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 </details>
 
 ---
-
-## Sonuç
 
 Bu rehber, e-postalarının güvenli, sistematik ve etkili şekilde analiz edilmesi için bir temel sunar.  
