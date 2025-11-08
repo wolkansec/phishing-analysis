@@ -123,6 +123,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 1: Hazırlık ve Güvenlik</strong></summary>
+  
 <ul>
 <li>Analizin izole bir sanal makinede yapılması.</li>
 <li>Gerekli araçlara (VT, AbuseIPDB, sandbox vs.) erişimin olması.</li>
@@ -134,6 +135,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 2: İlk Analiz / Görsel İnceleme</strong></summary>
+  
 <ul>
 <li><b>Gönderen:</b> Adres tanıdık mı? Eşleşme var mı?</li>
 <li><b>Konu:</b> Beklenmedik, acil veya tehditkar mı?</li>
@@ -170,6 +172,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 5: URL Analizi</strong></summary>
+  
 <ul>
 <li>Tüm bağlantıların listelenip, defang edilmesi.</li>
 <li>URL / domain'lerin VT, URLhaus, OTX üzerinden kontrol edilmesi.</li>
@@ -184,7 +187,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <summary><strong>Adım 6: Attachment Analizi</strong></summary>
 <ul>
 <li>Kesinlikle doğrudan açılmamalı!</li>
-<li>Dosyanın <code>MD5 / SHA256</code> hash değerinin hesaplanması.</li>
+<li>Dosyanın <code>MD5</code> / <code>SHA256</code> hash değerinin hesaplanması.</li>
 <li>Hash'in VT veya OTX üzerinden kontrol edilmesi.</li>
 <li>Gerekirse sandbox ortamında çalıştırılması (Any.Run, Triage).</li>
 </ul>
@@ -195,7 +198,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <details>
 <summary><strong>Adım 7: IoC Çıkarma ve Sonuç</strong></summary>
 <ul>
-<li>Topla:
+<li>Toplanılacak IoC'ler:
     <ul>
         <li>Kötü amaçlı IP'ler</li>
         <li>Alan adları / URL'ler</li>
