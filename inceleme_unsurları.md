@@ -1,4 +1,4 @@
-## İncelenmesi Gereken Ana Unsurlar
+# İncelenmesi Gereken Ana Unsurlar
 
 Phishing analizi yaparken bir e-postanın aşağıdaki bölümleri incelenir:
 
@@ -69,4 +69,5 @@ Analiz sonucunda elde edilebilecek IoC türleri:
 - **IP Adresleri:** Kaynak veya kötü amaçlı sunucu.
 - **Alan adları / URL'ler:** E-postada geçen veya yönlendiren bağlantılar.
 - **Dosya hashleri:** MD5 / SHA1 / SHA256
+
 - **E-posta adresleri:** `From`, `Reply-To`, `Return-Path`
