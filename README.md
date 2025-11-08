@@ -1,6 +1,7 @@
 # Phishing Analizi
 
 Phishing (Oltalama), saldırganların ağlara ilk erişimi sağlamak, kimlik bilgilerini çalmak veya kötü amaçlı yazılım yaymak için kullandığı en yaygın sosyal mühendislik tekniklerinden biridir.  
+
 Bir siber güvenlik analisti olarak, şüpheli e-postaları, bağlantıları (URL) ve ekleri analiz etme yeteneği, temel becerilerden biridir.
 
 Phishing analizinin temel amacı, e-postanın kötü amaçlı olup olmadığını belirlemek ve eğer öyleyse, IoC verilerini çıkartmaktır.
@@ -26,7 +27,7 @@ Dikkat edilmesi gereken başlıca alanlar:
 **SPF / DKIM / DMARC Nedir?**
 - **SPF (Sender Policy Framework):** Gönderen IP’nin yetkili olup olmadığını kontrol eder. `FAIL` büyük bir uyarıdır.
 - **DKIM (DomainKeys Identified Mail):** Mesajın değiştirilip değiştirilmediğini doğrular. `FAIL` manipülasyon ihtimalidir.
-- **DMARC:** SPF veya DKIM başarısız olduğunda ne yapılacağını belirler (`reject`, `quarantine`, `none`). `FAIL` → genellikle sahte e-posta.
+- **DMARC:** SPF veya DKIM başarısız olduğunda ne yapılacağını belirler (`reject`, `quarantine`, `none`). `FAIL` genellikle sahte e-posta.
 
 Ayrıca, `Received` satırlarında geçen kaynak IP adresi tespit edilip reputation testi yapılmalıdır.
 
@@ -37,8 +38,7 @@ Ayrıca, `Received` satırlarında geçen kaynak IP adresi tespit edilip reputat
 E-postanın görünür kısmıdır. Aşağıdaki belirtiler genellikle oltalama belirtisidir:
 
 - **Acil / Tehditkar İfadeler:** "Hesabınız kilitlenecek", "Acil işlem gerekli".
-- **Yazım veya dilbilgisi hataları.**
-- **Genel hitaplar:** "Değerli müşterimiz" gibi.
+- **Yazım veya dilbilgisi hataları**
 - **Olağandışı talepler:** Kimlik bilgisi, ödeme, dosya isteme.
 - **Farklı tarz / biçim:** Gerçek kurumsal dilden farklı e-postalar.
 - **Şüpheli bağlantılar (URLs):** Sonraki adımda analiz edilir.
