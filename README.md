@@ -137,7 +137,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <ul>
 <li>"Gönderen" Adres tanıdık mı? Eşleşme var mı?</li>
 <li>"Konu" Beklenmedik, acil veya tehditkar mı?</li>
-<li>"İçerik" Yazım hataları, acele ettirme var mı?</li>
+<li>İçerik Kısmında yazım hataları, acele ettirme gibi belirtiler var mı?</li>
 <li>"Bağlantılar" Farenin üstüne gelerek (tıklamadan) gerçek URL’nin görülmesi.</li>
 </ul>
 </details>
@@ -186,7 +186,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <li>Kesinlikle doğrudan açılmamalı!</li>
 <li>Dosyanın <code>MD5</code> / <code>SHA256</code> hash değerinin hesaplanması.</li>
 <li>Hash'in VT veya OTX üzerinden kontrol edilmesi.</li>
-<li>Gerekirse sandbox ortamında çalıştırılması (Any.Run, Triage).</li>
+<li>Gerekirse statik analizin yapılması veya sandbox ortamında çalıştırılması (Any.Run, Triage).</li>
 </ul>
 </details>
 
