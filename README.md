@@ -68,7 +68,7 @@ Dikkat edilmesi gereken dosya türleri:
 - **Makro içeren Office dosyaları:** `.docm`, `.xlsm`, `.pptm` Uzantının sonunda `m` ifadesi olması içerisine makro kodunun eklendiğini belirtir!
 - **Çift uzantı:** `invoice.pdf.exe`
 - **Parola korumalı veya Arşiv dosyaları:** Genellikle antivirüsten kaçmak için kullanılır.
-- **Analiz yöntemleri:** Şüpheli dosya asla doğrudan açılmamalı, hash değerlerinin çıkarılıpi sandbox ortamında analiz edilmesi gerekilir.
+- **Analiz yöntemleri:** Şüpheli dosya asla doğrudan açılmamalı, hash değerlerinin çıkarılıp sandbox ortamında analiz edilmesi gerekilir.
 
 ---
 
