@@ -9,6 +9,10 @@
 </ul>
 
 
+
+
+
+
 ### Adım 2: İlk Analiz / Görsel İnceleme
 <ul>
 <li>"Gönderen" Adres tanıdık mı? Eşleşme var mı?</li>
@@ -75,5 +79,6 @@
 <li>Tespit edilen IoC'lerin düzenli şekilde belgelenmesi.</li>
 <li>Kurum prosedürüne göre raporlanması veya engelleme işlemlerinin başlatılması.</li>
 </ul>
+
 
 
