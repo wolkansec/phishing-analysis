@@ -126,7 +126,7 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <ul>
 <li>Analizin izole bir sanal makinede yapılması.</li>
 <li>Gerekli araçlara (VT, AbuseIPDB, sandbox vs.) erişimin olması.</li>
-<li>E-postanın `.eml` veya `.msg` formatında alınması.</li>
+<li>E-postanın ".eml" veya ".msg" formatında alınması.</li>
 </ul>
 </details>
 
@@ -135,10 +135,10 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <details>
 <summary><strong>Adım 2: İlk Analiz / Görsel İnceleme</strong></summary>
 <ul>
-<li><b>Gönderen:</b> Adres tanıdık mı? Eşleşme var mı?</li>
-<li><b>Konu:</b> Beklenmedik, acil veya tehditkar mı?</li>
-<li><b>İçerik:</b> Yazım hataları, acele ettirme var mı?</li>
-<li><b>Bağlantılar:</b> Farenin üstüne gelerek (tıklamadan) gerçek URL’nin görülmesi.</li>
+<li>"Gönderen" Adres tanıdık mı? Eşleşme var mı?</li>
+<li>"Konu" Beklenmedik, acil veya tehditkar mı?</li>
+<li>"İçerik" Yazım hataları, acele ettirme var mı?</li>
+<li>"Bağlantılar" Farenin üstüne gelerek (tıklamadan) gerçek URL’nin görülmesi.</li>
 </ul>
 </details>
 
@@ -148,10 +148,10 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <summary><strong>Adım 3: Header Analizi</strong></summary>
 <ul>
 <li>Başlıkların çıkarılıp MxToolbox / Google Messageheader veya manuel olarak analiz edilmesi.</li>
-<li><b>Received:</b> Satırlarını alttan üste izlemek ve kaynak IP’nin bulunması.</li>
-<li>IP’nin AbuseIPDB, VT veya OTX ile kontrol edilmesi.</li>
-<li><b>SPF, DKIM, DMARC</b> sonuçlarının incelenmesi.</li>
-<li><b>From / Reply-To / Return-Path</b> alanlarının karşılaştırılması.</li>
+<li>"Received" Satırlarını alttan üste izlemek ve kaynak IP’nin bulunması.</li>
+<li>IP'nin AbuseIPDB, VT veya OTX ile kontrol edilmesi.</li>
+<li>SPF, DKIM, DMARC sonuçlarının incelenmesi.</li>
+<li>From / Reply-To / Return-Path alanlarının karşılaştırılması.</li>
 </ul>
 </details>
 
