@@ -1,4 +1,4 @@
-# Phishing Analiz Adımları (Workflow)
+## Phishing Analiz Adımları (Workflow)
 
 ---
 
@@ -76,3 +76,4 @@
 <li>Tespit edilen IoC'lerin düzenli şekilde belgelenmesi.</li>
 <li>Kurum prosedürüne göre raporlanması veya engelleme işlemlerinin başlatılması.</li>
 </ul>
+
