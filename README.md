@@ -5,7 +5,7 @@ Phishing (Oltalama), saldırganların ağlara ilk erişimi sağlamak, kimlik bil
 Bir siber güvenlik analisti olarak, şüpheli e-postaları, bağlantıları (URL) ve ekleri analiz etme yeteneği, temel becerilerden biridir.
 Phishing analizinin temel amacı, e-postanın kötü amaçlı olup olmadığını belirlemek ve eğer öyleyse, IoC verilerini çıkartmaktır.
 
-Bu rehber ise e-postalarının güvenli, sistematik ve etkili şekilde analiz edilmesi için bir temel sunar.  
+Bu rehber ise e-postalarının güvenli, sistematik ve etkili şekilde analiz edilmesi için bir temel bilgileri&adımları belirtir.  
 
 ---
 
