@@ -6,6 +6,8 @@ Bir siber güvenlik analisti olarak, şüpheli e-postaları, bağlantıları (UR
 
 Phishing analizinin temel amacı, e-postanın kötü amaçlı olup olmadığını belirlemek ve eğer öyleyse, IoC verilerini çıkartmaktır.
 
+Bu rehber ise e-postalarının güvenli, sistematik ve etkili şekilde analiz edilmesi için bir temel sunar.  
+
 ---
 
 ## İncelenmesi Gereken Ana Unsurlar
@@ -217,7 +219,3 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 <li>Kurum prosedürüne göre raporlanması veya engelleme işlemlerinin başlatılması.</li>
 </ul>
 </details>
-
----
-
-Bu rehber, e-postalarının güvenli, sistematik ve etkili şekilde analiz edilmesi için bir temel sunar.  
