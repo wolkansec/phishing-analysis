@@ -123,7 +123,6 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 1: Hazırlık ve Güvenlik</strong></summary>
-  
 <ul>
 <li>Analizin izole bir sanal makinede yapılması.</li>
 <li>Gerekli araçlara (VT, AbuseIPDB, sandbox vs.) erişimin olması.</li>
@@ -135,7 +134,6 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 2: İlk Analiz / Görsel İnceleme</strong></summary>
-  
 <ul>
 <li><b>Gönderen:</b> Adres tanıdık mı? Eşleşme var mı?</li>
 <li><b>Konu:</b> Beklenmedik, acil veya tehditkar mı?</li>
@@ -172,7 +170,6 @@ Aşağıdaki araçlar, e-posta, URL, IP ve dosyaların güvenli bir şekilde ana
 
 <details>
 <summary><strong>Adım 5: URL Analizi</strong></summary>
-  
 <ul>
 <li>Tüm bağlantıların listelenip, defang edilmesi.</li>
 <li>URL / domain'lerin VT, URLhaus, OTX üzerinden kontrol edilmesi.</li>
